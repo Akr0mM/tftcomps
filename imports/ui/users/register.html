@@ -1,0 +1,32 @@
+<template name="register">
+  <div class="register-container">
+    <h1 class="title">Créer un compte</h1>
+    <form class="register-form">
+      <input
+        type="text"
+        name="username"
+        placeholder="Nom d'utilisateur"
+        autocomplete="off"
+        class="input-register"
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        autocomplete="off"
+        class="input-register"
+      />
+      <input
+        type="password"
+        name="password"
+        placeholder="Mot de passe • 6+ caractères"
+        autocomplete="off"
+        class="input-register"
+      />
+      <button type="submit">Créer un compte</button>
+    </form>
+    <div class="login-link">
+      Vous avez déjà un compte? <a href="/login">Se connecter</a>
+    </div>
+  </div>
+</template>

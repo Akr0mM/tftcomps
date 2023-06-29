@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.login-container {
+  background-color: #1e1d1d;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #dddddd;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.input-login {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #cccccc !important;
+  color: #121212;
+  border: none;
+  border-radius: 3px;
+}
+
+.input-login:-webkit-autofill,
+.input-login:-webkit-autofill:hover,
+.input-login:-webkit-autofill:focus,
+.input-login:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #cccccc inset !important;
+}
+
+.input-login:-webkit-autofill {
+  -webkit-text-fill-color: #121212 !important;
+}
+
+.input-login[type='text']:focus,
+.input-login[type='password']:focus {
+  outline: none;
+}
+
+#login-button {
+  background-color: #cccccc;
+  color: #121212;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.register-link {
+  color: #dddddd;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.register-link a {
+  color: #dddddd;
+}
+
+.incorrect-input::placeholder {
+  color: #ff0000;
+}
+
+.incorrect-input {
+  caret-color: transparent;
+}

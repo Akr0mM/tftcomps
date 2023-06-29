@@ -1,0 +1,184 @@
+<template name="builder">
+  {{#if isLoading}}
+  <input
+    type="text"
+    value="{{compName}}"
+    class="name-input"
+    comp-id="{{compId}}"
+  />
+  {{/if}}
+  <div class="builder-container">
+    <div class="synergies-container"></div>
+    <div class="builder">
+      <div class="board">
+        <div class="slot-container" id="slot-1">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-2">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-3">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-4">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-5">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-6">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-7">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-8">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-9">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-10">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-11">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-12">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-13">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-14">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-15">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-16">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-17">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-18">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-19">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-20">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container" id="slot-21">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-22">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-23">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-24">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-25">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-26">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-27">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+        <div class="slot-container odd" id="slot-28">
+          <div class="slot">
+            <div class="slot-cover"></div>
+          </div>
+        </div>
+      </div>
+      <div class="deck"></div>
+      <div class="champions-container">
+        <header class="champions-filters">
+          <div class="filters">
+            <div class="filter filter-selected">Cost</div>
+            <div class="filter">Name</div>
+            <div class="filter">Class</div>
+          </div>
+        </header>
+        <div class="champions">
+          {{#each champs}}
+          <div
+            class="champion cost-{{cost}}"
+            draggable="true"
+            champion-id="{{_id}}"
+          >
+            <img
+              src="https://ddragon.leagueoflegends.com/cdn/13.12.1/img/champion/{{picName}}.png"
+              class="champions-img"
+              draggable="false"
+            />
+            <div class="name">{{name}}</div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      <div class="items-container"></div>
+    </div>
+  </div>
+</template>

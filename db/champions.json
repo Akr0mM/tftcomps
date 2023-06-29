@@ -1,0 +1,302 @@
+{
+  "champions": [
+    {
+      "name": "Aatrox",
+      "class": ["Darkin", "Slayer", "Juggernaut"],
+      "cost": 5
+    },
+    {
+      "name": "Ahri",
+      "class": ["Iona", "Sorcerer"],
+      "cost": 5
+    },
+    {
+      "name": "Akshan",
+      "class": ["Shurima", "Deadeye"],
+      "cost": 3
+    },
+    {
+      "name": "Aphelios",
+      "class": ["Targon", "Deadeye"],
+      "cost": 4
+    },
+    {
+      "name": "Ashe",
+      "class": ["Freljord", "Deadeye"],
+      "cost": 2
+    },
+    {
+      "name": "Azir",
+      "class": ["Shurima", "Strategist"],
+      "cost": 4
+    },
+    {
+      "name": "Belveth",
+      "class": ["Empress", "Void"],
+      "cost": 5
+    },
+    {
+      "name": "Cassiopeia",
+      "shortName": "Cassio",
+      "class": ["Noxus", "Shurima", "Invoker"],
+      "cost": 1
+    },
+    {
+      "name": "Chogath",
+      "class": ["Void", "Bruiser"],
+      "cost": 1
+    },
+    {
+      "name": "Darius",
+      "class": ["Noxus", "Juggernaut"],
+      "cost": 3
+    },
+    {
+      "name": "Ekko",
+      "class": ["Zaun", "Piltover", "Rogue"],
+      "cost": 3
+    },
+    {
+      "name": "Galio",
+      "class": ["Demacia", "Invoker"],
+      "cost": 2
+    },
+    {
+      "name": "Garen",
+      "class": ["Demacia", "Juggernaut"],
+      "cost": 3
+    },
+    {
+      "name": "Gwen",
+      "class": ["Shadow Isles", "Slayer"],
+      "cost": 4
+    },
+    {
+      "name": "Heimerdinger",
+      "shortName": "Heimer",
+      "class": ["Piltover", "Yordle", "Technogenius"],
+      "cost": 5
+    },
+    {
+      "name": "Irelia",
+      "class": ["Iona", "Challenger"],
+      "cost": 1
+    },
+    {
+      "name": "Jarvan IV",
+      "picName": "JarvanIV",
+      "class": ["Demacia", "Strategist"],
+      "cost": 4
+    },
+    {
+      "name": "Jayce",
+      "class": ["Piltover", "Gunner"],
+      "cost": 3
+    },
+    {
+      "name": "Jhin",
+      "class": ["Iona", "Deadeye"],
+      "cost": 1
+    },
+    {
+      "name": "Jinx",
+      "class": ["Zaun", "Gunner"],
+      "cost": 2
+    },
+    {
+      "name": "Kaisa",
+      "class": ["Void", "Challenger"],
+      "cost": 4
+    },
+    {
+      "name": "Kalista",
+      "class": ["Shadow Isles", "Challenger"],
+      "cost": 3
+    },
+    {
+      "name": "Karma",
+      "class": ["Iona", "Invoker"],
+      "cost": 3
+    },
+    {
+      "name": "Kassadin",
+      "class": ["Void", "Bastion"],
+      "cost": 2
+    },
+    {
+      "name": "Katarina",
+      "class": ["Noxus", "Rogue"],
+      "cost": 3
+    },
+    {
+      "name": "Kayle",
+      "class": ["Demacia", "Slayer"],
+      "cost": 1
+    },
+    {
+      "name": "Kled",
+      "class": ["Noxus", "Yordle", "Slayer"],
+      "cost": 2
+    },
+    {
+      "name": "KSante",
+      "class": ["Shurima", "Bastion"],
+      "cost": 5
+    },
+    {
+      "name": "Lissandra",
+      "class": ["Freljord", "Invoker"],
+      "cost": 3
+    },
+    {
+      "name": "Lux",
+      "class": ["Demacia", "Sorcerer"],
+      "cost": 4
+    },
+    {
+      "name": "Malzahar",
+      "class": ["Void", "Sorcerer"],
+      "cost": 1
+    },
+    {
+      "name": "Maokai",
+      "class": ["Shadow Isles", "Bastion"],
+      "cost": 1
+    },
+    {
+      "name": "Nasus",
+      "class": ["Shurima", "Juggernaut"],
+      "cost": 4
+    },
+    {
+      "name": "Orianna",
+      "class": ["Piltover", "Sorcerer"],
+      "cost": 1
+    },
+    {
+      "name": "Poppy",
+      "class": ["Yordle", "Demacia", "Bastion"],
+      "cost": 1
+    },
+    {
+      "name": "RekSai",
+      "class": ["Void", "Bruiser"],
+      "cost": 3
+    },
+    {
+      "name": "Renekton",
+      "class": ["Shurima", "Bruiser"],
+      "cost": 1
+    },
+    {
+      "name": "Ryze",
+      "class": ["Wanderer", "Invoker"],
+      "cost": 5
+    },
+    {
+      "name": "Samira",
+      "class": ["Noxus", "Challenger"],
+      "cost": 1
+    },
+    {
+      "name": "Sejuani",
+      "class": ["Freljord", "Bruiser"],
+      "cost": 4
+    },
+    {
+      "name": "Senna",
+      "class": ["Shadow Isles", "Gunner", "Redeemer"],
+      "cost": 5
+    },
+    {
+      "name": "Sett",
+      "class": ["Iona", "Juggernaut"],
+      "cost": 2
+    },
+    {
+      "name": "Shen",
+      "class": ["Iona", "Bastion", "Invoker"],
+      "cost": 4
+    },
+    {
+      "name": "Sion",
+      "class": ["Noxus", "Bruiser"],
+      "cost": 5
+    },
+    {
+      "name": "Sona",
+      "class": ["Demacia", "Multicaster"],
+      "cost": 3
+    },
+    {
+      "name": "Soraka",
+      "class": ["Targon", "Invoker"],
+      "cost": 2
+    },
+    {
+      "name": "Swain",
+      "class": ["Noxus", "Strategist", "Sorcerer"],
+      "cost": 2
+    },
+    {
+      "name": "Taliyah",
+      "class": ["Shurima", "Multicaster"],
+      "cost": 2
+    },
+    {
+      "name": "Taric",
+      "class": ["Targon", "Bastion", "Sorcerer"],
+      "cost": 3
+    },
+    {
+      "name": "Teemo",
+      "class": ["Yordle", "Strategist", "Multicaster"],
+      "cost": 2
+    },
+    {
+      "name": "Tristana",
+      "class": ["Yordle", "Gunner"],
+      "cost": 1
+    },
+    {
+      "name": "Urgot",
+      "class": ["Zaun", "Deadeye"],
+      "cost": 4
+    },
+    {
+      "name": "Velkoz",
+      "class": ["Void", "Multicaster", "Sorcerer"],
+      "cost": 3
+    },
+    {
+      "name": "Vi",
+      "class": ["Piltover", "Bruiser"],
+      "cost": 2
+    },
+    {
+      "name": "Viego",
+      "class": ["Shadow Isles", "Rogue"],
+      "cost": 1
+    },
+    {
+      "name": "Warwick",
+      "class": ["Zaun", "Juggernaut", "Challenger"],
+      "cost": 2
+    },
+    {
+      "name": "Yasuo",
+      "class": ["Iona", "Challenger"],
+      "cost": 4
+    },
+    {
+      "name": "Zed",
+      "class": ["Iona", "Rogue", "Slayer"],
+      "cost": 2
+    },
+    {
+      "name": "Zeri",
+      "class": ["Zaun", "Gunner"],
+      "cost": 4
+    }
+  ]
+}

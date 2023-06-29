@@ -1,0 +1,38 @@
+body {
+  background-color: #222222 !important;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+
+.comps-list {
+  height: min-content;
+  display: grid;
+  grid-gap: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.composition {
+  border: 1px solid #323232;
+  background-color: #27282e;
+  width: 99vw;
+  max-width: 1080px;
+  border-radius: 3px;
+}
+
+.add-comp-container {
+  display: flex;
+  justify-content: center;
+}
+
+.add-comp {
+  border: 1px solid #323232;
+  background-color: #27282e;
+  width: 99vw;
+  max-width: 200px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+<template name="compositions">
+  <ul class="comps-list">
+    {{#each comps}}
+    <li class="composition">{{> composition}}</li>
+    {{/each}}
+    <li>
+      <div class="add-comp-container">
+        <div class="add-comp">Add Composition</div>
+      </div>
+    </li>
+  </ul>
+</template>
+
+<template name="composition">
+  <div>{{name}}</div>
+</template>
